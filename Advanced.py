@@ -17,7 +17,6 @@ with st.sidebar:   # Change theme color
     st.link_button(label='Basic',url='https://kengik-calculator-basic.streamlit.app/',use_container_width=True)
     st.link_button(label='Advanced',url='https://kengik-calculator-advanced.streamlit.app/',use_container_width=True)
     st.markdown('You are using: **Advanced Edition**')
-    st.markdown('<p>[Basic]<br>[Advanced]</p>',unsafe_allow_html=True)
     st.divider()
     st.html('<h1 style="text-align:center;font-size:40px;">Theme</h1>')
     theme_color=st.color_picker(label='Pick a Theme Color',value='#1467f0',help='Change Theme Color')
