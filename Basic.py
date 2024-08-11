@@ -3,7 +3,8 @@ import streamlit as st   # pip install streamlit
 
 st.set_page_config(
     page_title='KenGik Calculator - Basic Edition',
-    page_icon='🧮')
+    page_icon='🧮'
+)
 
 
 # Convert radio value to operation
@@ -85,6 +86,11 @@ if st.session_state.disable_calculate:  # Auto-Calculate system
 
 # Sidebar
 with st.sidebar:  # Change theme color
+    st.html('<h1 style="text-align:center;font-size:40px;">Edition</h1>')
+    st.link_button(label='Basic',url='https://docs.streamlit.io/develop/api-reference/widgets/st.link_button',use_container_width=True)
+    st.link_button(label='Advanced',url='https://docs.streamlit.io/develop/api-reference/widgets/st.link_button',use_container_width=True)
+    st.markdown('You are using: **Basic Edition**')
+    st.divider()
     st.html('<h1 style="text-align:center;font-size:40px;">Theme</h1>')
     theme_color=st.color_picker(label='Pick a Theme Color',value='#1467f0',help='Change Theme Color')
     st.markdown(f'''<p>• Default Color: <b>#1467F0</b></p>
@@ -93,6 +99,22 @@ with st.sidebar:  # Change theme color
 
     st.divider()
     st.markdown('[![Streamlit](https://img.shields.io/badge/Made%20with%20-Streamlit-red)](https://streamlit.io/)')
+
+
+# CSS styling button
+st.html(f"""
+<style>
+            div.stButton>button:hover{{
+            border: 1px solid {theme_color};
+            color: {theme_color};
+            }}
+            div.stButton>button:active{{
+            background-color: {theme_color};
+            color: white;
+            }}
+</style>""")
+
+
 st.markdown(f'<h1 style="color:{theme_color};text-align:center;font-size:52px;"><b>KenGik Calculator</b></h1>',unsafe_allow_html=True)
 
 
@@ -133,18 +155,6 @@ else:  # if divide by zero
                 %g %s %g = **%s**'%(theme_color,st.session_state.first_num,operation_dict[st.session_state.operations],st.session_state.second_num,st.session_state.result),
                 unsafe_allow_html=True)
 
-
-# CSS styling button
-st.html(f"""
-<style>
-            div.stButton>button:hover{{
-            border: 1px solid {theme_color};
-            color: {theme_color};
-            }}
-            div.stButton>button:active{{
-            background-color: {theme_color};
-            color: white;
-            }}""")
 
 
 submit=st.button(label='Calculate',use_container_width=True,on_click=calculate,
