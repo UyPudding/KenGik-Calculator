@@ -14,8 +14,8 @@ st.set_page_config(
 ## Sidebar ##
 with st.sidebar:   # Change theme color
     st.html('<h1 style="text-align:center;font-size:40px;">Edition</h1>')
-    st.link_button(label='Basic',url='https://docs.streamlit.io/develop/api-reference/widgets/st.link_button')
-    st.link_button(label='Advanced',url='https://docs.streamlit.io/develop/api-reference/widgets/st.link_button')
+    st.link_button(label='Basic',url='https://kengik-calculator-basic.streamlit.app/',use_container_width=True)
+    st.link_button(label='Advanced',url='https://kengik-calculator-advanced.streamlit.app/',use_container_width=True)
     st.markdown('You are using: **Advanced Edition**')
     st.markdown('<p>[Basic]<br>[Advanced]</p>',unsafe_allow_html=True)
     st.divider()
