@@ -87,8 +87,8 @@ if st.session_state.disable_calculate:  # Auto-Calculate system
 # Sidebar
 with st.sidebar:  # Change theme color
     st.html('<h1 style="text-align:center;font-size:40px;">Edition</h1>')
-    st.link_button(label='Basic',url='https://docs.streamlit.io/develop/api-reference/widgets/st.link_button',use_container_width=True)
-    st.link_button(label='Advanced',url='https://docs.streamlit.io/develop/api-reference/widgets/st.link_button',use_container_width=True)
+    st.link_button(label='Basic',url='https://kengik-calculator-basic.streamlit.app/',use_container_width=True)
+    st.link_button(label='Advanced',url='https://kengik-calculator-advanced.streamlit.app/',use_container_width=True)
     st.markdown('You are using: **Basic Edition**')
     st.divider()
     st.html('<h1 style="text-align:center;font-size:40px;">Theme</h1>')
