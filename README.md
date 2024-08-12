@@ -1,4 +1,8 @@
 # <p align='center'>KenGik Calculator</p>
+<p align='center'>
+  <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
+  <a href="https://twitter.com/UyPudding" ><img src="https://img.shields.io/twitter/follow/UyPudding.svg?style=social" /> </a></p>
+
 _<p align='center'>Curated List of UyPudding's repository</p>_
 <p>
 <div align='center'>
@@ -44,10 +48,11 @@ This **Basic Calculator** is suitable for calculating *simple* Calculation<br>
 + Only calculate with Addition, Subtraction,
 Multiplication, Division
 + Cannot keep previous results when Auto-Calculate is enabled</i>
-
+<hr>
 <p align='center'><span id='advanced' style='font-size:28px;font-family:Segoe;'><b>Advanced Edition</b>🧮</span></p>
 
 With **Advanced Calculator** *aka* **Scientific Calculator** is very suitable for calculating *complex* Calculation<br>
+
 * **App URL:** <https://kengik-calculator-advanced.streamlit.app/><br>
 * **Source Code:** <https://github.com/uypudding/kengik-calculator/blob/main/Advanced.py>
 ### Features
@@ -86,6 +91,7 @@ With **Advanced Calculator** *aka* **Scientific Calculator** is very suitable fo
 >   <b>tan(Deg(x)):</b> Tangent with x Degrees - <b>tan(Deg(45)) = tan(45°)</b> = 1<br>
 ><span><b><i>❗Important:</i></b></span> <b>2×π = 6.28318530718</b>
 >             <b>2π = Syntax ERROR<b><pre></details>
+<hr>
 
 <h2 id='requirement'>Requirements 📜</h2>
 
