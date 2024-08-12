@@ -107,8 +107,10 @@ With **Advanced Calculator** *aka* **Scientific Calculator** is very suitable fo
 **About:** [_About-Me_](https://github.com/UyPudding/About-Me/blob/main/README.md)
 <h2 id='demo'>Demo 📢</h2>
 
-**Web App:**<br>
-**Feedback:**<br>
+**Web App - Basic:** <https://kengik-calculator-basic.streamlit.app><br>
+**Web App - Advanced:** <https://kengik-calculator-advanced.streamlit.app><br>
+**Feedback:** <https://discuss.streamlit.io/t/kengik-calculator-free-calculator-using-streamlit/78497><br>
+
 [![Star](https://img.shields.io/github/stars/UyPudding/Green-Translator.svg?logo=github&style=social)](https://gitHub.com/UyPudding/Green-Translator) &nbsp;  <a href="https://github.com/UyPudding/Green-Translator/network/members"><img src="https://img.shields.io/github/forks/UyPudding/Green-Translator" alt="Forks Badge"/></a>
 <h2 id='about-streamlit'>About Streamlit 🎈</h2>
 
