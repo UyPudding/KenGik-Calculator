@@ -6,11 +6,11 @@
 _<p align='center'>Curated List of UyPudding's repository</p>_
 <p>
 <div align='center'>
-<a href="https://github.com/UyPudding/Green-Translator/"><img src="https://img.shields.io/github/stars/UyPudding/Green-Translator" alt="Stars Badge"/></a>
-<a href="https://github.com/UyPudding/Green-Translator/network/members"><img src="https://img.shields.io/github/forks/UyPudding/Green-Translator" alt="Forks Badge"/></a>
-<a href="https://github.com/UyPudding/Green-Translator/discussions"><img src="https://img.shields.io/github/discussions/UyPudding/Green-Translator?color=1467F0" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/UyPudding/Green-Translator/issues"><img src="https://img.shields.io/github/issues/UyPudding/Green-Translator?color=1467F0" alt="Issues Badge"/></a>
-<a href="https://github.com/UyPudding/Green-Translator/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/UyPudding/Green-Translator?color=1467F0" alt="License Badge"/></a>
+<a href="https://github.com/UyPudding/KenGik-Calculator/"><img src="https://img.shields.io/github/stars/UyPudding/KenGik-Calculator" alt="Stars Badge"/></a>
+<a href="https://github.com/UyPudding/KenGik-Calculator/network/members"><img src="https://img.shields.io/github/forks/UyPudding/KenGik-Calculator" alt="Forks Badge"/></a>
+<a href="https://github.com/UyPudding/KenGik-Calculator/discussions"><img src="https://img.shields.io/github/discussions/UyPudding/KenGik-Calculator?color=1467F0" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/UyPudding/KenGik-Calculator/issues"><img src="https://img.shields.io/github/issues/UyPudding/KenGik-Calculator?color=1467F0" alt="Issues Badge"/></a>
+<a href="https://github.com/UyPudding/KenGik-Calculator/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/UyPudding/KenGik-Calculator?color=1467F0" alt="License Badge"/></a>
 </div></p>
 
 This is **KenGik Calculator**, that can help you _**calculate Math**_. Include **2 Editions**, are *Basic* and *Advanced*
