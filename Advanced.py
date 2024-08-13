@@ -184,7 +184,10 @@ def calculate():  # Calculate system
         st.session_state.input="%g"%(float(st.session_state.input))  # Avoid floating point error
 
         if st.session_state.fractions:  # If Result as Fraction is enabled
-            st.session_state.input="%s"%(Fraction(float(st.session_state.input)).limit_denominator(10))
+            if len(st.session_state.input[st.session_state.input.find('.')+1:])>=5:  # If Decimal is too long
+               st.session_state.input="%s"%(Fraction(st.session_state.input).limit_denominator(10))  # Reduce Fraction
+            else:
+                st.session_state.input="%s"%(Fraction(st.session_state.input))
 
     except ZeroDivisionError:  # Handling ZeroDivisionError
         st.session_state.input='Math ERROR - Click [AC] to Reset'
