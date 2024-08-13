@@ -175,6 +175,7 @@ def calculate():  # Calculate system
     st.session_state.input=st.session_state.input.replace('^','**')
     st.session_state.input=st.session_state.input.replace('π','pi')
     st.session_state.input=st.session_state.input.replace('n!(','factorial(')
+    st.session_state.input=st.session_state.input.replace('%','/100')
 
     time.sleep(0.2)
 
